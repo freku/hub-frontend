@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Robot 9000';
+    src: url('assets/font/robot9000.ttf');
+}
+
+@font-face {
+    font-family: 'Robot 9000';
+    src: url('assets/font/robot9000italic.ttf');
+    font-style: italic;
+}
+
+@layer base {
+    html {
+      font-family: "Robot 9000", system-ui, sans-serif;
+    }
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
